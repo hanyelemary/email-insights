@@ -27,6 +27,14 @@ Export emails into csv. At this point, we look at the subject of email. We can c
 
 > **stopwords**: an array of words to filter out, in addition to other base english words such as: the, off, a, an ...
 
+### OLM to CSV conversion
+This *only* applies if your exported email list is in .olm format and not in .csv
+
+```
+python olm-to-csv.py <olm_file_name>
+```
+> This will output a csv file based on your json config above (emails.csv) in the same working directory. It could take some time based on how many emails you have.
+
 ### Create virtual env
 
 ```
