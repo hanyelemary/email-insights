@@ -24,6 +24,7 @@ Export emails into csv. At this point, we look at the subject of email. We can c
 ```
 *NOTE*: you can adjust any of the fields above.
 > **filename**: exported csv email file
+
 > **stopwords**: an array of words to filter out, in addition to other base english words such as: the, off, a, an ...
 
 ### Create virtual env
