@@ -12,6 +12,7 @@ Export emails into csv. At this point, we look at the subject of email. We can c
 ```javascript
 {
   "filename": "emails.csv",
+  "strip_xml_tags": true,
   "stopwords": [
     "jira",
     "accepted",
@@ -26,6 +27,8 @@ Export emails into csv. At this point, we look at the subject of email. We can c
 > **filename**: exported csv email file
 
 > **stopwords**: an array of words to filter out, in addition to other base english words such as: the, off, a, an ...
+
+> **strip_xml_tags**: whether to strip xml/html tags off the email body.
 
 ### OLM to CSV conversion
 This *only* applies if your exported email list is in .olm format and not in .csv
