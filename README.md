@@ -8,6 +8,11 @@ Unsupervised learning (clustering) to provide insights on exported emails.
 ## Getting started:
 Export emails into csv. At this point, we look at the subject of email. We can change it to work with email bodies as well.
 
+The csv file must include **subject** (and **body** if you decide to go with the body) header(s). The one I'm testing with has the following:
+```javascript
+['from', 'to', 'author', 'subject', 'body', 'created_at']
+````
+
 ### Create config json
 ```javascript
 {
