@@ -2,7 +2,7 @@ ipaddress==1.0.22
 joblib==0.13.2
 lxml==4.4.1
 mail-parser==3.9.3
-numpy==1.17.1
+numpy==1.22.0
 pandas==0.25.1
 python-dateutil==2.8.0
 pytz==2019.2
