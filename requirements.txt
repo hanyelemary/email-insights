@@ -1,6 +1,6 @@
 ipaddress==1.0.22
 joblib==0.13.2
-lxml==4.4.1
+lxml==4.9.1
 mail-parser==3.9.3
 numpy==1.17.1
 pandas==0.25.1
